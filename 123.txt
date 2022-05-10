@@ -1,0 +1,53 @@
+app:
+  secret: Produgie
+logging:
+  level:
+    org:
+      springframework:
+        boot:
+          autoconfigure: ERROR
+server:
+  port: 9008
+produgie:
+  log:
+    path: ./logs
+  db:
+    host: 35.247.157.15
+    port: 3306
+    name: pgrip
+    username: root
+    password: 0rg$0ld8-d3v
+spring:
+  datasource:
+    url: jdbc:mysql://${produgie.db.host}:${produgie.db.port}/${produgie.db.name}
+    username: ${produgie.db.username}
+    password: ${produgie.db.password}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+      ddl-auto: update
+    database: MYSQL
+  application:
+    name: produgie-assessment-service
+  security:
+    oauth2:
+      client:
+        registration:
+          oidc:
+            client-id: ${okta.clientId}
+            client-secret: ${okta.clientSecret}
+            scope: openid,profile,email,groups
+        provider:
+          oidc:
+            issuer-uri: ${okta.clientDomain}/oauth2/default
+            authorization-uri: ${okta.clientDomain}/oauth2/default/v1/authorize
+            token-uri: ${okta.clientDomain}/oauth2/default/v1/token
+okta:
+  clientId: 0oa1dad1kbTKA7QC85d7
+  clientDomain: https://dev-46593730.okta.com   https://login.produgie.com
+  introspect:
+    url: ${okta.clientDomain}/oauth2/default/v1/introspect
+apiKey: "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"
+fromemail: "produgie.support@produgie.com"

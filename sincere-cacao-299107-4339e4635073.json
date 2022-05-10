@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "sincere-cacao-299107",
+  "private_key_id": "4339e46350735bba4883a08dcefb57d29b22d0f5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCyETw7FXpNaEyT\nzUc2tUE0LKGppnM1EZpsKVjac1MpIj1/rR3YVsmJSABMB9aIvBroCcqG4mCxIo3m\neMYoRzmJg77gscjFiCWl1TLi4yloSmPF2T+t9pHrOZDAApNAs1+j+a0gXqS15ui4\nYAtavVNE9oaOeYcPNznsRoP7c2SfF4qTrk+qcqWzya7FjgsysEGQIEX6A+WHuX5A\nTNrSDhmWHHVwI147+OkHc1P3fY8+8BFD9Me8tGJzCMyn4UsbpR/LtEzUJ9ig8HnY\nWilhEfZZHSs+KUeQpWQdq5dinO4HLo2XEEtCwSxz+iBBRxEUE6h0+j9dv9O7Wg9H\n2auiqmxNAgMBAAECggEACG39cnSZVhnGakbRBLt+6zfjrVLWaGA9dbpdXPYRrURU\nMfuhipDNOKUCcpb6Zn21Ll/sSQdleW0/13XHN7frduGYQy3XadaApcGah5gmaSwA\nXijjNVqTXNXcTuKwUuNK90nGEt64IG5efP/6+aA11XFwPEVvid5c7R0HeXtke41/\nBg4t+eyOnrePa9rD7njbs9+1vOolc6oscW5nv/sT98cUml4CwC7l345h4O5R4HrA\nClAWlG/TtMgajMcGFC691iHNjikhdk/FVq0Pohq6fMPq9+U+8FsejJp5kooVp+Ag\nl4g8oAN/hQx/PusHf8ZC95k/IBF2uAEaC/LZrG0uUQKBgQDcBd3+ULALgWwMGoOw\nrQ+R+kFyAinXoWWfyYEFIhCXsHNQbN8TB57qdKNrQwq8b1Rf19vv3rjdzhniin+Q\nUrlmVgMZ3+d3x+D3ldPH/iKUhbaC8Qgy9EgubhoRTRT6Y8kz1C226eIgmnYM2Wsp\nPoqkGTEcvt2LsR8ajE9Fz0BoCQKBgQDPLxyulUAFJ1XTkJRLJ57GDSbahIxBKBS8\nn+aYeK3DAzzv61QLUpSoRHw0Le8lltP3TnbAzWekHUu3LBAtIeLFJVprhUExfVOx\nwEjhw8bcMdihog9P+Ka801YZXt+GOlUD+YYG5bZyVAxIQ1Ll1Cb4Z9Cqs6D9M8p8\nLOHaRYsLJQKBgQDRa7g39z8JRH++KYKNKLw4OtYOGScQeivLYjWu2BSo/SdVNrtB\nVrCZAroFP0O5xdGuhDxwXTLi0+hpa2At079qO5YqC6c6qIJlxjNVGXx6l6b3jUo7\nja4im2Oucgr0pQP+lAeLIaS9WafhZRSNply6AsxvSvB+pPExCLnvfWwVWQKBgQCD\nceVlkgVS/7jBCCo9YD6ocnGjE5MUR4SYg24+b9n2Lpi7snbY1CTCeOjABiCCnaWP\ncnV/LxJBGeEOrmL471W7NE6ghqNs7ZFq5Y6XxajlzK4fJf1HBH9srzwhzoJL27hS\nVD3HJHhTIqXENwpiC+5JjTvjASHzYqdljugfnh1wDQKBgG/5L89WlSaPzqiHDgK5\nWSlZbY9HB3brU2HPStSQ5csPXeJ9gRKf8RNvtApJHngHnn2dYvqiyS5lHkm6GG6B\nrmbUjqak2pQcR0x8ul+K3PWQlDWz2fnHV9LWphT4ENmuFGEHValQHsyH/53PzoBQ\nU4Q0LrhtG0h5F1pTwdp/fMrw\n-----END PRIVATE KEY-----\n",
+  "client_email": "avatar-service@sincere-cacao-299107.iam.gserviceaccount.com",
+  "client_id": "117911086214862830957",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/avatar-service%40sincere-cacao-299107.iam.gserviceaccount.com"
+}
